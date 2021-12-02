@@ -1,0 +1,104 @@
+.topmodulestart {
+    margin-top: 12px;
+}
+
+.topmodule1 {
+    width: 22%;
+    border: #ddd solid 2px;
+}
+
+.topmodule1 .topmoduletext a {
+    font-size: 0px;
+    height: 240px;
+}
+
+.topmodule1 .topmoduletext a img {
+    width: 100%;
+    height: 100%;
+}
+
+.mtop {
+    margin-top: 12px;
+}
+
+.mudulemost {
+    color: rgb(192, 192, 192);
+    font-size: 12px;
+}
+
+.topmoduletext {
+    width: 100%;
+}
+
+.iconfont {
+    font-size: 20px;
+    color: white;
+}
+
+.topmoduletitle .fl {
+    margin-left: 10px;
+}
+
+.topmoduletitle .fl .text {
+    font-size: 16px;
+}
+
+.topmodule2 {
+    width: 76.5%;
+    height: 100%;
+    border: #ddd solid 2px;
+}
+
+.topmodule2 .topmoduletitle .topmoduletitle-data {
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+.topmodule2 .topmoduletitle .topmoduletitle-xxxw {
+    margin-left: 70px;
+}
+
+.topmodule2-left {
+    width: 40%;
+    height: 240.66px;
+}
+
+.topmodule2-left .fr {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 150px;
+    font-size: 14px;
+    margin-right: 15px;
+    padding-right: 10px;
+    line-height: 25px;
+    border-right: 2px solid rgb(192, 192, 192);
+}
+
+.topmodule2-left .img {
+    width: 150px;
+    left: 5%;
+    margin-right: 10px;
+}
+
+.topmodule2-left .img img {
+    width: 100%;
+}
+
+.topmodule2-left-text a:hover {
+    color: #525252;
+}
+
+.topmodule2-right {
+    width: 60%;
+    height: 240.66px;
+}
+
+.topmodule2-right ul {
+    width: 65%;
+    margin-left: 10px;
+}
+
+.topmodule2-right ul li {
+    margin-top: 25px;
+}

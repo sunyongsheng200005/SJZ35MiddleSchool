@@ -1,0 +1,225 @@
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    background: #fff;
+    min-width: 1200px;
+}
+
+.banner {
+    width: 100%;
+    min-width: 1200px;
+}
+
+.container1 {
+    height: 102px;
+    min-width: 1200px;
+    background: rgb(169, 13, 62);
+    background: -webkit-linear-gradient(top, rgb(238, 4, 70), rgba(99, 24, 55));
+    background-size: cover;
+}
+
+.img_logo {
+    position: relative;
+    top: -8px;
+    left: 100px;
+    width: 120px;
+}
+
+.titletext {
+    position: relative;
+    left: -50px;
+    /* top: 10px; */
+}
+
+@font-face {
+    font-family: '华光行草';
+    src: url(../iconfont/HGXC_CNKI.TTF);
+}
+
+@font-face {
+    font-family: '叶根友毛笔行书简体2.0';
+    src: url(../iconfont/叶根友毛笔行书简体2.0.TTF);
+}
+
+@font-face {
+    font-family: 'BRUSHSCI';
+    src: url(../iconfont/BRUSHSCI.TTF);
+}
+
+@font-face {
+    font-family: '叶根友特色简体08';
+    src: url(../iconfont/叶根友特色简体08.TTF);
+}
+
+.titletext1 {
+    color: white;
+    font-family: '叶根友毛笔行书简体2.0';
+    font-size: 40px;
+    text-shadow: 5px 5px 8px #111;
+}
+
+.titletext2 {
+    font-family: '叶根友特色简体08';
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.top-nav {
+    height: 54px;
+    background-color: rgb(49, 58, 73);
+}
+
+.collapse {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+.nav li .v1 {
+    height: 25px;
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    line-height: 5px;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+}
+
+.nav li {
+    width: 100px;
+    display: list-item;
+    float: left;
+    text-align: center;
+    margin: 0 10px;
+    margin-top: 25px;
+}
+
+.inputmouble {
+    margin-top: 15px;
+}
+
+#serchmoduleshow {
+    border-radius: 10px;
+    border: rgb(192, 192, 192) solid 1.5px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(192, 192, 192);
+}
+
+.serchmodulenull {
+    position: absolute;
+    right: 30px;
+}
+
+.inputmouble a {
+    display: block;
+    font-size: 28px;
+    margin-top: -3px;
+    margin-left: 5px;
+}
+
+.inputmouble a:hover {
+    color: white;
+    font-size: 30px;
+}
+
+
+/*下拉框 */
+
+.nav .con {
+    display: none;
+    position: absolute;
+    width: 700px;
+    z-index: 100001;
+    box-shadow: 0 0 51px rgba(0, 0, 0, .2);
+    background-image: url(../Images/dhbac.png);
+    background-size: cover;
+    overflow: hidden;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+    min-height: 200px;
+}
+
+li:hover .con {
+    display: block;
+}
+
+li:hover .con2 {
+    left: 0%;
+}
+
+li:hover .con3 {
+    left: 5%;
+}
+
+li:hover .con4 {
+    left: 10%;
+}
+
+li:hover .con5 {
+    left: 20%;
+}
+
+li:hover .con6 {
+    left: 30%;
+}
+
+li:hover .con7 {
+    left: 35%;
+}
+
+li:hover .con9 {
+    left: 45%;
+}
+
+.nav dl {
+    overflow: hidden;
+    margin: 37px 280px 13px 36px;
+}
+
+.nav dl dd {
+    float: left;
+    /* width: 33.33%; */
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 24px;
+    margin-right: 40px;
+}
+
+.weixin {
+    position: fixed;
+    top: 50%;
+    right: 2px;
+    height: 180px;
+    width: 160px;
+    z-index: 9999999;
+}
+
+.weixin img {
+    height: 180px;
+    width: 160px;
+}
+
+.item1 {
+    height: 250px;
+    width: auto;
+}
+
+.showstitle .fl {
+    color: white;
+}
+
+.worksshow {
+    margin-top: 10px;
+}

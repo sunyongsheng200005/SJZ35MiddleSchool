@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="GBK">
+    <title>demo</title>
+</head>
+
+<body>
+
+    <p>点击按钮，显示提示框</p>
+    <button onclick="myFunction()">点我</button>
+    <p id="demo"></p>
+    <script>
+        function myFunction() {
+            var x;
+            var r = confirm("按下按钮!");
+            if (r == true) {
+                x = "你按下了\"确定\"按钮!";
+            } else {
+                x = "你按下了\"取消\"按钮!";
+            }
+            document.getElementById("demo").innerHTML = x;
+        }
+    </script>
+    <script>
+        document.getElementById("btn").onclick = function() {
+            alert("name" + $("#name").val() + " sex" + $("input[name='sex']:checked").val() + $("#middleschoollocation1").val() + $("#middleschoollocation2").val() + $("#middleschoollocation3").val() +
+                $("#reslocation1").val() + $("#reslocation2").val() + $("#reslocation3").val());
+
+
+            $.post("/addInfro", {
+                name: $("#name").val(),
+                sex: $("input[name='sex']:checked").val(),
+                identity: $("#identity").val(),
+                currentlocation: $("#currentlocation").val(),
+                middleschoollocation: $("#middleschoollocation1").val() + $("#middleschoollocation2").val() + $("#middleschoollocation3").val(),
+                parentname: $("#parentname").val(),
+                midartscore: $("#midartscore").val(),
+                teachername: $("#teachername").val(),
+                artaccessnumber: $("#artaccessnumber").val(),
+                preschool: $("#preschool").val(),
+                reslocation: $("#reslocation1").val() + $("#reslocation2").val() + $("#reslocation3").val(),
+                midscore: $("#midscore").val(),
+                medicalhistory: $("#medicalhistory").val(),
+                phonenumber: $("#phonenumber").val(),
+                classname: $("#classname").val(),
+                teacherphonenumber: $("#teacherphonenumber").val(),
+                midaccessnumber: $("#midaccessnumber").val(),
+            }, function() {
+                alert("Yes");
+            })
+        }
+    </script>
+
+
+</body>

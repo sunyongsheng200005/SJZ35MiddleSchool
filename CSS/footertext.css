@@ -1,0 +1,84 @@
+.footer {
+    position: relative;
+    z-index: 100000;
+    /* margin-top: 20px; */
+    width: 100%;
+    height: 180px;
+    /* background-image: url(../Images/555.png); */
+    background: rgb(99, 24, 55);
+    background-size: cover;
+}
+
+.footer-address {
+    margin-top: 10px;
+}
+
+.footer-address li a {
+    color: #fff;
+}
+
+.footer-address li {
+    margin: 15px 30px;
+}
+
+.container3 {
+    margin-left: 20%;
+}
+
+
+/* .leftext li {
+    margin-left: 00px;
+} */
+
+.footer-copy {
+    width: 100%;
+    background-color: rgb(47, 7, 4);
+}
+
+.w600 {
+    width: 1010px;
+    margin: 0 auto;
+}
+
+.footer-copy .w600 p {
+    /* margin: 20px 0; */
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-copy .w600 p a {
+    color: #A0431B;
+}
+
+.footer-copy .w600 p a:hover {
+    color: rgb(147, 147, 147);
+}
+
+.footer-copy img {
+    width: 500px;
+}
+
+.erweima {
+    margin-top: 20px;
+    margin-left: 8%;
+    border-left: 3px solid rgb(77, 7, 4);
+    padding-left: 4%;
+}
+
+.erweima .fr {
+    margin-right: 60px;
+}
+
+.erweima .fr img {
+    display: block;
+    height: 120px;
+    width: 120px;
+}
+
+.erweima .fr span {
+    text-align: center;
+    padding-left: 25px;
+    color: #fff;
+    font-size: 14px;
+}

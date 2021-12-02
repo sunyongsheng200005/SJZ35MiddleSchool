@@ -1,0 +1,166 @@
+/* #information .leftNav ul li:hover {
+    color: #fff;
+    background: rgb(99, 24, 55);
+    cursor: pointer;
+    font-weight: bold;
+} */
+
+#information {
+    min-height: 600px!important;
+}
+
+#information .rightInfor .content ul#simplified_list .icon_dot {
+    margin-top: 2px;
+}
+
+#information {
+    margin-top: -5px!important;
+}
+
+#information .rightInfor .content ul#simplified_list li {
+    border-bottom: 1px solid #aaa;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+#information .rightInfor .content ul#simplified_list {
+    padding-left: 50px;
+    margin-top: 0;
+    list-style: none;
+    width: 100%;
+    max-height: 396px;
+    overflow: hidden;
+}
+
+.content ul li:hover a {
+    text-decoration: none;
+}
+
+.content ul li:hover a,
+.content ul li:hover span {
+    color: rgb(99, 24, 55);
+    cursor: pointer;
+}
+
+
+/*  */
+
+#information {
+    min-height: 500px;
+    margin-top: 100px;
+    display: flex;
+    flex: row wrap;
+}
+
+
+/* #information .leftNav {
+    flex: 1;
+} */
+
+
+/* #information .leftNav ul {
+    list-style: none;
+    *zoom: 1;
+    margin-top: -15px;
+} */
+
+
+/* #information .leftNav ul:before,
+#information .leftNav ul:after {
+    display: table;
+    content: "";
+    line-height: 0;
+} */
+
+
+/* #information .leftNav ul:after {
+    clear: both;
+}
+
+#information .leftNav ul li {
+    width: 110px;
+    margin: 15px 20px 10px 0px;
+    background-color: #aaa;
+    color: #fff;
+    line-height: 3;
+    text-align: center;
+    cursor: default;
+} */
+
+
+/* #information .leftNav .cur {
+    background-color: rgb(99, 24, 55);
+    font-weight: bold;
+} */
+
+#information .rightInfor {
+    flex: 8;
+    background-color: rgb(225, 225, 225);
+    margin-bottom: 20px;
+    padding: 20px 0 45px 0;
+}
+
+#information .rightInfor .cur {
+    display: block;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+#information .rightInfor .cur .text-wrapper .contentheading {
+    font-size: 20px;
+}
+
+#information .rightInfor .cur .text-wrapper .title_time {
+    color: rgb(82, 82, 82);
+    font-size: 16px;
+}
+
+#information .rightInfor .cur .text-wrapper .contenttext {
+    /* background: white; */
+    width: 1000px;
+    /* margin-left: 130px; */
+    margin: 0 auto;
+    /* border: rgb(230, 34, 35)solid 5px; */
+    border-radius: 7px;
+}
+
+#information .rightInfor .cur .text-wrapper .contenttext p.imgtext {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#information .rightInfor .cur .text-wrapper .contenttext p img {
+    width: 600px;
+    margin: 20px 0;
+}
+
+#information .rightInfor .cur .text-wrapper .contenttext p.texttitleer {
+    text-align: center;
+}
+
+#information .rightInfor .cur .text-wrapper .contenttext p.texttext {
+    text-align: center;
+    margin: 0px auto;
+    width: 100%;
+    /* border: rgb(250, 108, 85) solid 1px; */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#information .rightInfor .cur .text-wrapper .contenttext p .texttitle {
+    /* color: rgb(250, 108, 85); */
+    font-size: 18px;
+}
+
+#information .rightInfor .cur .text-wrapper .contenttext p .texter {
+    /* padding: 0 1px; */
+    display: block;
+    margin: 0 13px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.page-next-next-zsimg a img {
+    height: 0px;
+}

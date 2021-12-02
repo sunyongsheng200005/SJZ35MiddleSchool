@@ -1,0 +1,182 @@
+#information .leftNav ul li:hover {
+    color: #fff;
+    background: rgb(99, 24, 55);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#information {
+    min-height: 450px;
+}
+
+#information .rightInfor .content ul#simplified_list .icon_dot {
+    margin-top: 2px;
+}
+
+#information {
+    margin-top: 15px!important;
+}
+
+#information .rightInfor .content ul#simplified_list li {
+    border-bottom: 1px solid #aaa;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+#information .rightInfor .content ul#simplified_list {
+    padding-left: 50px;
+    margin-top: 0;
+    list-style: none;
+    width: 100%;
+    max-height: 396px;
+    overflow: hidden;
+}
+
+.content ul li:hover a {
+    text-decoration: none;
+}
+
+.content ul li:hover a,
+.content ul li:hover span {
+    color: rgb(99, 24, 55);
+    cursor: pointer;
+}
+
+
+/*  */
+
+#information {
+    min-height: 500px;
+    margin-top: 100px;
+    display: flex;
+    flex: row wrap;
+}
+
+#information .leftNav {
+    flex: 1;
+}
+
+#information .leftNav ul {
+    list-style: none;
+    *zoom: 1;
+    margin-top: -15px;
+}
+
+#information .leftNav ul:before,
+#information .leftNav ul:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+#information .leftNav ul:after {
+    clear: both;
+}
+
+#information .leftNav ul li {
+    width: 110px;
+    margin: 15px 20px 10px 0px;
+    background-color: #aaa;
+    color: #fff;
+    line-height: 3;
+    text-align: center;
+    cursor: default;
+}
+
+#information .leftNav .cur {
+    background-color: rgb(99, 24, 55);
+    font-weight: bold;
+}
+
+#information .rightInfor {
+    flex: 8;
+    background-color: rgb(225, 225, 225);
+    margin-bottom: 20px;
+    padding: 20px 0 45px 0;
+}
+
+#information .rightInfor .content ul#simplified_list {
+    padding-left: 50px;
+    /* margin-top: -10px; */
+    list-style: none;
+    width: 90%;
+}
+
+#information .rightInfor .content ul#simplified_list li {
+    margin-top: 10px;
+}
+
+#information .rightInfor .content ul#simplified_list li .text-wrapper {
+    margin: 6px 0;
+}
+
+#information .rightInfor .content ul#simplified_list .icon_dot {
+    width: 13px;
+    height: 13px;
+    background-image: url('../Images/icon_dot.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    display: inline;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+
+#information .rightInfor .content ul#simplified_list .newsTitle2 {
+    width: 660px;
+    float: left;
+    display: inline;
+    line-height: 3;
+    overflow: hidden;
+}
+
+#information .rightInfor .cur {
+    display: block;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.date-my {
+    float: right;
+    color: #aaa;
+    margin-right: 20px;
+}
+
+.page-divide {
+    color: #999999;
+    font-size: 12px;
+    width: 200px;
+    margin: 0 auto;
+    position: absolute;
+    right: 80px;
+    bottom: 30px;
+}
+
+.page-divide a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.page-divide a:hover {
+    color: rgb(99, 24, 55);
+}
+
+.page-divide .interval {
+    margin-left: 0px;
+}
+
+.page-divide span.pointer:hover {
+    cursor: pointer;
+    color: rgb(99, 24, 55);
+}
+
+.page-span {
+    color: #999999;
+}
+
+.page-num-input {
+    width: 57px;
+    border: 1px solid #999999;
+    margin: 0 4px;
+    height: 19px;
+}

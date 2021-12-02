@@ -1,0 +1,72 @@
+.centermodulestart {
+    margin-top: 10px;
+}
+
+.moduletitle .fl {
+    margin-left: 10px;
+}
+
+.centermodule1 {
+    width: 35%;
+    border: #ddd solid 2px;
+}
+
+.centermodule1 .centermoduletext .img {
+    width: 85%;
+    margin-top: 10px;
+}
+
+.centermodule1 .centermoduletext .img a img {
+    width: 100%;
+}
+
+.centermoduletext {
+    width: 100%;
+    height: 280px;
+}
+
+.centermodule1-text {
+    width: 90%;
+    font-size: 14px;
+    margin: auto 20px;
+    margin-top: 10px;
+}
+
+.centermodule2 {
+    width: 33%;
+    margin-left: 10px;
+    border: #ddd solid 2px;
+}
+
+.centermoduletext ul {
+    width: 100%;
+}
+
+.centermoduletext ul li {
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.centermodule3 {
+    width: 29.5%;
+    border: #ddd solid 2px;
+}
+
+.centermodule4 {
+    width: 35%;
+    margin-top: 10px;
+    border: #ddd solid 2px;
+}
+
+.centermodule5 {
+    width: 33%;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: #ddd solid 2px;
+}
+
+.centermodule6 {
+    width: 29.5%;
+    margin-top: 10px;
+    border: #ddd solid 2px;
+}

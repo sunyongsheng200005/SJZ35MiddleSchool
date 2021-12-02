@@ -1,0 +1,135 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1203697",
+      "name": "新闻",
+      "font_class": "quanbuxinwen",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "1354923",
+      "name": "教育",
+      "font_class": "jiaoyu",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "4192120",
+      "name": "高考2",
+      "font_class": "gaokao",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "7629053",
+      "name": "教育",
+      "font_class": "jiaoyu1",
+      "unicode": "e6b5",
+      "unicode_decimal": 59061
+    },
+    {
+      "icon_id": "7765170",
+      "name": "学校_教师",
+      "font_class": "xuexiao_jiaoshi",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "8519511",
+      "name": "新闻",
+      "font_class": "xinwen",
+      "unicode": "e6fc",
+      "unicode_decimal": 59132
+    },
+    {
+      "icon_id": "8571194",
+      "name": "视频",
+      "font_class": "shipin",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "9748107",
+      "name": "新闻",
+      "font_class": "xinwen1",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "10043587",
+      "name": "通知",
+      "font_class": "xinbaniconshangchuan-",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "12875280",
+      "name": "党建",
+      "font_class": "dangjian",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "13630284",
+      "name": "菱形箭头",
+      "font_class": "lingxingjiantou",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "16350219",
+      "name": "美术",
+      "font_class": "meishu",
+      "unicode": "e712",
+      "unicode_decimal": 59154
+    },
+    {
+      "icon_id": "17717561",
+      "name": "作品",
+      "font_class": "zuopin",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "17823886",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e746",
+      "unicode_decimal": 59206
+    },
+    {
+      "icon_id": "18729623",
+      "name": "领导",
+      "font_class": "lingdao",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "19378104",
+      "name": "教育",
+      "font_class": "jiaoyu2",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "20810679",
+      "name": "党建-1",
+      "font_class": "dangjian-1",
+      "unicode": "e78a",
+      "unicode_decimal": 59274
+    },
+    {
+      "icon_id": "21673725",
+      "name": "通知",
+      "font_class": "tongzhi200",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    }
+  ]
+}

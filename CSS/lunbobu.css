@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wow {
+    float: left;
+    width: 100%;
+    /* height: 50vw; */
+    /* background-color: black; */
+    min-width: 1200px;
+}
+
+#div {
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 575px;
+    z-index: 10000;
+    min-width: 1200px;
+}
+
+pic img {
+    float: left;
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+    transition: all 0.8s ease;
+    width: 100%;
+    height: 100%;
+}
+
+#btnLeft,
+#btnRignt {
+    overflow: hidden;
+    /* width: 100px;
+    height: 100px; */
+    width: 6vw;
+    height: 6vw;
+    min-width: 80px;
+    min-height: 80px;
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    margin-top: -20px;
+    background: #000;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '黑体';
+    font-size: 30px;
+    color: #fff;
+    opacity: 0.3;
+    border: 1px solid #fff;
+}
+
+#btnLeft:hover,
+#btnRignt:hover {
+    background: #fff;
+    opacity: 0.5;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#btnRignt {
+    right: 0%;
+    left: auto;
+}
+
+.active {
+    z-index: 1000;
+    opacity: 1;
+}
+
+.ulbtn {
+    position: absolute;
+    padding: 0;
+    list-style: none;
+    z-index: 1000;
+    right: 5%;
+    bottom: 5%;
+    cursor: pointer;
+}
+
+.ulbtn li {
+    /* width: 30px;
+    height: 30px; */
+    width: 1.5vw;
+    height: 1.5vw;
+    min-width: 20px;
+    min-height: 20px;
+    background-color: rgba(100, 100, 100, 0.6);
+    float: left;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-clip: content-box;
+    border: 3px solid transparent;
+}
+
+.ulbtn li:hover {
+    background-color: #fff;
+    border: 3px solid rgba(20, 20, 20, .4);
+}
+
+.ulbtn .liwhite {
+    background-color: #fff;
+    border: 3px solid rgba(20, 20, 20, .4);
+}
